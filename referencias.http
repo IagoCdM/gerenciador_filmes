@@ -20,10 +20,10 @@ Content-Type: application/json
 ###
 DELETE http://localhost:3000/usuarios/3
 
-### Listar todos os filmes
+###
 GET http://localhost:3000/filmes
 
-### Cadastrar um filme novo
+###
 POST http://localhost:3000/filmes
 Content-Type: application/json
 
@@ -34,5 +34,5 @@ Content-Type: application/json
   "diretor": "Christopher Nolan"
 }
 
-### Deletar um filme (Substitua o 1 pelo ID real do banco)
+###
 DELETE http://localhost:3000/filmes/1
